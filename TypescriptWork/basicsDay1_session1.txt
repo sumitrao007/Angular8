@@ -1,0 +1,78 @@
+Angular js 
+angular 2/4/5/6/8/9/10/11
+
+Angular is freamwork
+Angular is fast development 
+angular supports module,services,Dependecy injection,routing,end to end tooling,
+pplication
+angualr is one freamwork => it supports mobile,web,desktop
+angular cross platform => it supports jav, .net , php , node js+express js, nearest server instants
+
+Angular fast perform 
+chrome=> v8 javascript engine
+
+Angular is SPA=> Single Page Application
+index.html
+<html>
+<head>
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+why typescript?
+
+it developed by microsoft
+syntax of c++ like
+supprots opps concept+Ecma script(js) +ecma version 6/7/8/9
+its oops concept
+interface/encapsculation/abstraction/polymorphism
+
+
+FrontEnd
+ - typescript
+ - Angular
+
+
+
+.ts + tsc => .js
+
+Typescript is superset of javascript
+supprots opps concept+Ecma script(js) +ecma version 6/7/8/9
+
+single,multi level,hireachy
+
+contentment
+
+Department dept;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
