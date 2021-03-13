@@ -1,0 +1,12 @@
+<p>style-binding works!</p>
+
+<h1 [style.color]="mycolor" > Style Binding </h1> 
+
+<h2 [style.color]="rating<4?'red':'green'"> Apply Style Binding on Condition </h2>
+
+<h2 [style.color]="rating1<4?mycolor:mycolor2"> Apply Style Binding on Condition </h2>
+
+<!-- ngStyle => it requires json object to set a css property -->
+
+<input type="text" [ngStyle]="myobj" value="Sumit Raokhande" >
+
