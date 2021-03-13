@@ -1,0 +1,52 @@
+<p>backend-connection works!</p>
+
+<label for="">Title:: </label> &nbsp;&nbsp;
+<input #mytitle type="text" 
+placeholder="Enter the Title"
+> <br><br>
+<label for="">Body:: </label> &nbsp;&nbsp;
+<input #mybody type="text" 
+placeholder="Enter the Body"
+> <br><br>
+<button (click)="OnSend(mytitle.value,mybody.value)">Send</button>
+<hr>
+
+<div [hidden]="ishiiden">
+    <label for="">Id:: </label> &nbsp;&nbsp;
+<input  type="text" 
+placeholder="Enter the Id" [(ngModel)]="id" readonly
+> <br><br>
+
+<label for="">Title:: </label> &nbsp;&nbsp;
+<input  type="text" 
+placeholder="Enter the Title" [(ngModel)]="title"
+> <br><br>
+
+<label for="">Body:: </label> &nbsp;&nbsp;
+<input  type="text" 
+placeholder="Enter the Body" [(ngModel)]="body"
+> <br><br>
+
+<button (click)="onFinalUpdate()">Final Update</button>
+
+</div>
+
+
+<hr>
+
+<table border="2px">
+    <thead>
+        <th>ID</th>
+        <th>Action</th>
+        <th>Title</th>
+        <th>Body</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of posts">
+            <td> {{item.id}} </td>
+            <td> <button (click)="onUpdate(item)">Update</button> </td>
+            <td> {{item.title}} </td>
+            <td> {{item.body}} </td>
+        </tr>
+    </tbody>
+</table>

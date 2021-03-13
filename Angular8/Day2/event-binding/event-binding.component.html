@@ -1,0 +1,40 @@
+<p>event-binding works!</p>
+
+<button (click)="onClick()"> Click </button>
+
+<br><br>
+<img src="../../assets/Desert.jpg" alt="no internet"  (click)="onClick2()" >
+<br><br>
+
+<button  (click)="result=2+2" >Addition</button>{{result}}
+
+<!-- template Reference variable -->
+
+<hr>
+<input #input1 type="number" placeholder="Enter the Numer1"> <br><br>
+<input #input2 type="number" placeholder="Enter the Numer2"> <br><br>
+<button (click)="onDisplay(input1.value,input2.value)">Display</button>
+<br><br>
+
+
+<input type="number" placeholder="result"
+[value]="result1"> <br><br>
+
+<!-- Two way Binding
+     [(ngModel)] ="property_name"
+
+-->
+
+<input type="text" [(ngModel)]="name" placeholder="Enter the Name"> <br>
+{{name}}
+<br><br><br><br>
+
+<!-- change event -->
+
+<input type="text" (change)="onChange()">
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+
+

@@ -1,0 +1,15 @@
+<p>class binding works!</p>
+
+
+<h2 [class]="myclass"> Class Binding </h2>
+
+<h2 [class.danger]="rating<4" 
+[class.success]="rating>4"
+> Apply Class Binding On condition </h2>
+<hr>
+
+<!-- ngClass => It requires a json object to set css classes -->
+
+<h2  [ngClass]="myjson" > Apply ngClass Binding </h2>
+
+

@@ -1,0 +1,11 @@
+.success{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.danger{
+    color: red;
+}
+.special{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}

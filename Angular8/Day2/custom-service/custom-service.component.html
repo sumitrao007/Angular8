@@ -1,0 +1,18 @@
+<p>custom-service works!</p>
+
+<table border="2px">
+    <thead>
+        <th>Sr no</th>
+        <th>Course Name</th>
+        <th>Duration</th>
+        <th>Fees</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of mycourse;index as i">
+            <td>  {{i+1}} </td>
+            <td>  {{item.name}} </td>
+            <td>  {{item.duration}} </td>
+            <td>{{item.fee}}</td>
+        </tr>
+    </tbody>
+</table>
