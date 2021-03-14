@@ -1,0 +1,26 @@
+curd operation
+1 get => http.get(url)
+2 post => http.post(url,body)
+3 update => http.put(url,body)
+4 delete     => http.delete(url)
+
+routing
+<router-outlet>
+1 Configure the route
+2 Add <router-outlet> tag
+3 Add routerlinks/navigation
+
+How to use Form Control
+
+ngModel => It creates instance of  Form Control Class
+use name attribute compulsory
+we have to use teplate referene variable we assign Form Control instance to template refernce variable
+required attribute we have to use
+
+
+
+
+
+
+
+

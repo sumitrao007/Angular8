@@ -1,0 +1,59 @@
+Day2
+
+
+
+data binding
+1 string interpolation
+	{{}}
+2 property binding
+	
+3 style binding
+	
+4 class binding
+
+Event Binding
+1 Click
+2 Change
+3 Template Reference variable
+4 Two way binding
+
+DOM=
+
+D= Document
+O= Object
+m= model
+
+Service
+Dependency Injection
+
+HTTP Service
+
+
+Consume HTTP Services 
+- We use https://jsonplaceholder.typicode.com/posts
+
+- It is fake service/API for demo Purpose
+- we can create,delete,upadte and get the data (i.e. Curd Opeartion) but it can't store in database when you refresh the page.
+
+
+get all student=> localhost:8080/
+delete one student => localhost:8080/delete1
+Update one student => localhost:8080/update1
+add one student => localhost:8080/save
+
+
+4xx => client side error
+5xx = > Server side error
+3xx => Redirect status code
+
+https://jsonplaceholder.typicode.com/posts/9
+
+
+
+
+
+
+
+
+
+
